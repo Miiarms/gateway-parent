@@ -1,0 +1,25 @@
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    jmx:
+      exposure:
+        include: '*'
+    web:
+      exposure:
+        include: '*'
+  server:
+    port: 8088
+
+spring:
+  application:
+    name: miifast-gateway-console
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blue?serverTimezone=UTC
+    username: '***'
+    password: '***'
+
+
+

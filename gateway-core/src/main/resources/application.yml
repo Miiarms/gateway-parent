@@ -1,0 +1,8 @@
+
+server:
+  port: 8827
+
+http:
+  request:
+    size: 10
+    buffer: 100
